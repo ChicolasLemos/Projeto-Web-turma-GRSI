@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "save": "^2.4.0"
+  },
+  "name": "projeto-web-turma-grsi",
+  "description": "Projeto GRSI",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI.git"
+  },
+  "author": "Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI/issues"
+  },
+  "homepage": "https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI#readme"
+}
