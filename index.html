@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gerador de nomes | Francisco Lemos</title>
+
+</head>
+
+<body>
+
+    <div align="center">
+
+        <h1 style="background-color: #00BFFF; color: white; padding: 20px 20px 20px 20px">
+
+          RANDOM NAME GENERATOR
+
+        </h1>
+
+        <div style="background-color: #A0A0A0; color: white; padding: 2px 2px 2px 2px">
+
+          <h3>Instructions</h3>
+
+          <h4>Click the "Generate" Button to Generate a Random Name!</h4>
+
+        </div>
+
+        <h4></h4>
+
+        <script>
+
+            var adjective = ["Excited", "Anxious", "Overweight", "Demonic", "Jumpy", "Misunderstood", "Squashed", "Gargantuan","Broad", "Crooked", "Curved", "Deep", "Even","Excited", "Anxious", "Overweight", "Demonic", "Jumpy", "Misunderstood", "Squashed", "Gargantuan","Broad", "Crooked", "Curved", "Deep", "Even", "Flat", "Hilly", "Jagged", "Round", "Shallow", "Square", "Steep", "Straight", "Thick", "Thin", "Cooing", "Deafening", "Faint", "Harsh", "High-pitched", "Hissing", "Hushed", "Husky", "Loud", "Melodic", "Moaning", "Mute", "Noisy", "Purring", "Quiet", "Raspy", "Screeching", "Shrill", "Silent", "Soft", "Squeaky", "Squealing", "Thundering", "Voiceless", "Whispering"] 
+
+            var object = ["Taco", "Operating System", "Sphere", "Watermelon", "Cheeseburger", "Apple Pie", "Spider", "Dragon", "Remote Control", "Soda", "Barbie Doll", "Watch", "Purple Pen", "Dollar Bill", "Stuffed Animal", "Hair Clip", "Sunglasses", "T-shirt", "Purse", "Towel", "Hat", "Camera", "Hand Sanitizer Bottle", "Photo", "Dog Bone", "Hair Brush", "Birthday Card"]
+
+            var list;
+
+
+            function generator() {
+
+                document.getElementById("name").innerHTML = adjective[Math.floor(Math.random() * adjective.length)] + " " + object[Math.floor(Math.random() * object.length)];;;
+
+            }
+
+        </script>
+
+        <button onclick="generator()">Generate!</button>
+
+        <h1 id="name">Your Name Will Appear Here</h1>
+
+    </div>
+
+</body>
+
+</html>
