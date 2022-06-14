@@ -1,25 +1,25 @@
 {
-  "dependencies": {
-    "express": "^4.17.3",
-    "nodemon": "^2.0.15",
-    "path": "^0.12.7",
-    "save": "^2.4.0"
-  },
-  "name": "projeto-web-turma-grsi",
-  "description": "Projeto GRSI",
+  "name": "grsi-projeto",
   "version": "1.0.0",
+  "description": "Projeto-web aulas",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI.git"
   },
-  "author": "Jesus",
+  "author": "Francisco Lemos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI/issues"
+    "url": "https://github.com/ChicolasLemos"
   },
-  "homepage": "https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI#readme"
+  "homepage": "https://github.com/ChicolasLemos/Projeto-Web-turma-GRSI",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemod": "^3.0.6",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
 }
